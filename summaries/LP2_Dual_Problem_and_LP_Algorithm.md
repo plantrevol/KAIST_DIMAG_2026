@@ -20,9 +20,11 @@ $$
 $$
 
 에 대응하는 dual은
+
 $$
 \min\; b^Ty\quad\text{s.t. }A^Ty\ge c,\ y\ge0
 $$
+
 로 볼 수 있다.
 - Weak duality는 dual feasible solution을 primal optimum의 상계로 사용하게 해준다.
 - Strong duality에서는 두 optimum value가 일치한다.
@@ -30,7 +32,7 @@ $$
 
 ## What I Understood
 
-Dual은 단순한 변환이 아니라 **최적값의 bound와 optimality certificate**를 제공한다는 점이 핵심이었다. 또한 simplex가 vertex 사이를 이동하는 알고리즘이라는 관점에서 이후의 edge direction과 reduced cost가 자연스럽게 연결된다.
+Dual은 **최적값의 bound와 optimality certificate**를 제공한다는 점이 핵심이었다. 또한 simplex가 vertex 사이를 이동하는 알고리즘이라는 관점에서 이후의 edge direction과 reduced cost가 자연스럽게 연결된다.
 
 ## Questions / Points to Review
 
