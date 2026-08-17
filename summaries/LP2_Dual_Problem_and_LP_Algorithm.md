@@ -14,9 +14,11 @@ LP의 primal 문제에서 dual problem을 구성하고, weak duality와 strong d
 ## Main Ideas
 
 - 표준형 primal
+
 $$
 \max\; c^Tx\quad\text{s.t. }Ax\le b,\ x\ge0
 $$
+
 에 대응하는 dual은
 $$
 \min\; b^Ty\quad\text{s.t. }A^Ty\ge c,\ y\ge0
