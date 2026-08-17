@@ -29,7 +29,7 @@ bounded polyhedron에서는 recession cone이 사라져 $P=\mathrm{conv}(V(P))$�
 
 ## What I Understood
 
-LP의 최적해가 왜 vertex를 중심으로 설명되는지 이해할 수 있었다. Minkowski–Weyl 정리는 단순히 도형을 표현하는 정리가 아니라, LP feasible region의 구조를 **vertex + ray**로 분해해 이후 simplex와 연결해 주는 핵심 결과라고 이해했다.
+LP의 최적해가 왜 vertex를 중심으로 설명되는지 이해할 수 있었다. Minkowski–Weyl 정리는LP feasible region의 구조를 **vertex + ray**로 분해해 이후 simplex와 연결해 주는 핵심 결과라고 이해했다.
 
 ## Questions / Points to Review
 
