@@ -16,15 +16,15 @@
 **Minkowski–Weyl 정리**: polyhedron $P$는 꼭짓점의 convex combination과 recession cone의 extreme ray의 conic combination으로 표현할 수 있다.
 
 $$
-P=\operatorname{conv}(V(P))+\operatorname{cone}(R(P)).
+P=\mathrm{conv}(V(P))+\mathrm{cone}(R(P)).
 $$
 
-bounded polyhedron에서는 recession cone이 사라져 $P=\operatorname{conv}(V(P))$가 된다.
+bounded polyhedron에서는 recession cone이 사라져 $P=\mathrm{conv}(V(P))$가 된다.
 
 ## Key Ideas
 
 - polyhedron의 모든 face는 적절한 제약식들의 intersection으로 표현할 수 있다.
-- $\dim F=n-\operatorname{rank}(A_I)$ 관계를 통해 face의 차원과 active constraint의 rank가 연결된다.
+- $\dim F=n-\mathrm{rank}(A_I)$ 관계를 통해 face의 차원과 active constraint의 rank가 연결된다.
 - Carathéodory 정리에 따라 한 점의 표현에 필요한 생성자 수를 차원에 맞게 제한할 수 있다.
 
 ## What I Understood
