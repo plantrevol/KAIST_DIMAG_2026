@@ -1,4 +1,4 @@
-# Matroid 2 — Linear Matroid
+# Matroid 3 — Linear Matroid
 
 ## Lecture Summary
 
