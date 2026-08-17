@@ -13,11 +13,8 @@ feasible region의 내부를 따라 최적해로 접근하는 interior-point met
 
 ## Main Ideas
 
-- 로그 barrier를 넣어
-$
-\min c^Tx-\mu\sum_i\log x_i
-$
-형태의 smooth problem으로 바꿀 수 있다.
+- 로그 barrier를 넣어 $\min c^Tx-\mu\sum_i\log x_i$
+- 형태의 smooth problem으로 바꿀 수 있다.
 - $\mu$를 점차 줄이면 barrier problem의 해가 원래 LP의 최적해에 가까워진다.
 - predictor step과 corrector step을 반복해 primal-dual central path를 따라간다.
 - homogeneous self-dual embedding은 초기 feasible point를 구성하고 infeasible 상황까지 함께 다루는 방법이다.
