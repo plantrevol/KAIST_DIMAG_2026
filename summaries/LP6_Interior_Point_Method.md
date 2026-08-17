@@ -21,7 +21,7 @@ feasible region의 내부를 따라 최적해로 접근하는 interior-point met
 
 ## What I Understood
 
-simplex가 polyhedron의 **경계(vertex)**를 따라 이동한다면 interior-point method는 **내부의 central path**를 따라 최적해에 접근한다. barrier가 경계에서 발산하기 때문에 feasible region 내부를 유지하면서 최적점으로 수렴한다는 점이 핵심이었다.
+simplex가 polyhedron의 경계(vertex)를 따라 이동한다면 interior-point method는 **내부의 central path**를 따라 최적해에 접근한다. barrier가 경계에서 발산하기 때문에 feasible region 내부를 유지하면서 최적점으로 수렴한다는 점이 핵심이었다.
 
 ## Questions / Points to Review
 
