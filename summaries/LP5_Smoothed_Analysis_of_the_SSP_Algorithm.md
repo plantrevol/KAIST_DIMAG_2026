@@ -14,11 +14,7 @@ local step에서 tangent cone을 이용해 simplex의 이동 방향을 해석하
 ## Main Ideas
 
 - tangent cone을 이용하면 simplex의 local step을 국소적인 최적화 문제로 표현할 수 있다.
-- min-cost flow는
-$$
-\min c^Tf\quad\text{s.t. }Af=b,\ 0\le f\le u
-$$
-형태의 LP로 표현할 수 있다.
+- min-cost flow는 $\min c^Tf\quad\text{s.t. }Af=b,\ 0\le f\le u$형태의 LP로 표현할 수 있다.
 - SSP는 residual network에서 가장 싼 s-t path를 반복적으로 선택한다.
 - 입력 비용을 조금 perturb하면 최단 경로 비용 사이의 우연한 근접성이 완화되어 simplex/SSP의 실제 평균적 성능을 설명할 수 있다.
 
